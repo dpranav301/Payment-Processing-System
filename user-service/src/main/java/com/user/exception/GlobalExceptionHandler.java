@@ -28,4 +28,5 @@ public class GlobalExceptionHandler {
 		error.setTimestamp(LocalDateTime.now());
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
 	}
+	
 }
